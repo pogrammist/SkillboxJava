@@ -1,13 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Code">
-  <grid id="27dc6" row-count="1" column-count="1" layout-manager="BorderLayout">
-    <margin top="0" left="0" bottom="0" right="0"/>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AuthCode">
+  <grid id="27dc6" binding="rootPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
     <constraints>
-      <xy x="20" y="20" width="500" height="400"/>
-      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+      <xy x="20" y="20" width="630" height="400"/>
     </constraints>
     <properties/>
     <border type="none"/>
-    <children/>
+    <children>
+      <grid id="fa04e" binding="headerPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="2">
+        <constraints border-constraint="North"/>
+        <properties>
+          <maximumSize width="2147483647" height="40"/>
+          <minimumSize width="0" height="40"/>
+          <preferredSize width="0" height="40"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="23cd4" class="javax.swing.JButton" binding="lowButton">
+            <constraints/>
+            <properties>
+              <maximumSize width="30" height="30"/>
+              <minimumSize width="30" height="30"/>
+              <preferredSize width="30" height="30"/>
+              <text value="_"/>
+            </properties>
+          </component>
+          <component id="e458" class="javax.swing.JButton" binding="exitButton">
+            <constraints/>
+            <properties>
+              <maximumSize width="30" height="30"/>
+              <minimumSize width="30" height="30"/>
+              <preferredSize width="30" height="30"/>
+              <text value="X"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="39d6" binding="bodyPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="ada4b" binding="logoPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints/>
+            <properties>
+              <maximumSize width="100" height="100"/>
+              <minimumSize width="100" height="100"/>
+              <preferredSize width="100" height="100"/>
+            </properties>
+            <border type="line"/>
+            <children/>
+          </grid>
+          <component id="d65f6" class="javax.swing.JTextPane" binding="numberPane">
+            <constraints/>
+            <properties>
+              <editable value="false"/>
+              <maximumSize width="100" height="100"/>
+              <minimumSize width="100" height="100"/>
+              <preferredSize width="100" height="100"/>
+              <text value="number"/>
+            </properties>
+          </component>
+          <component id="40783" class="javax.swing.JTextPane" binding="helpPane">
+            <constraints/>
+            <properties>
+              <editable value="false"/>
+              <maximumSize width="100" height="100"/>
+              <minimumSize width="100" height="100"/>
+              <preferredSize width="100" height="100"/>
+              <text value="input code"/>
+            </properties>
+          </component>
+          <component id="f03e7" class="javax.swing.JPasswordField" binding="codePasswordField" default-binding="true">
+            <constraints/>
+            <properties>
+              <maximumSize width="100" height="30"/>
+              <minimumSize width="100" height="30"/>
+              <preferredSize width="100" height="30"/>
+              <text value=""/>
+              <toolTipText value=""/>
+            </properties>
+          </component>
+          <component id="34988" class="javax.swing.JButton" binding="button1" default-binding="true">
+            <constraints/>
+            <properties>
+              <alignmentX value="0.0"/>
+              <maximumSize width="100" height="30"/>
+              <minimumSize width="100" height="30"/>
+              <preferredSize width="100" height="30"/>
+              <text value="test code"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
   </grid>
 </form>

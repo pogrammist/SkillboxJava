@@ -48,8 +48,9 @@ public class Form {
 
     private void renderForm2() {
         Form2 form2 = new Form2();
-        String fullName = surnameTextField.getText() + " " + nameTextField.getText() + " " + patronymicTextField.getText();
+        String[] fullName = {surnameTextField.getText(), nameTextField.getText(), patronymicTextField.getText()};
         form2.setFullNameTextField(fullName);
+        form2.setProgressBar(fullName.length);
         Loader.renderJFrame(form2.getRootPanel());
     }
 

@@ -1,2 +1,2 @@
-public class EditProfile {
+public class ProfileEdit {
 }

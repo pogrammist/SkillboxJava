@@ -7,6 +7,11 @@ import static javax.swing.JOptionPane.*;
 public class Form {
 
     private JPanel rootPanel;
+    private JPanel jPNorth;
+    private JPanel jPSouth;
+    private JPanel jPWest;
+    private JPanel jPEast;
+    private JPanel jPCenter;
 
     private JButton button;
 

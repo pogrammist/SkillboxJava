@@ -1,32 +1,29 @@
 import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class Loader {
-    public static void main(String[] args) {
 
-        JFrame frame = new JFrame();
+    public static JFrame frame = new JFrame();
 
-        Form form = new Form();
-        frame.setContentPane(form.getRootPanel());
+    public static void renderJFrame(JPanel jPanel) {
 
-//        frame.setLayout(new FlowLayout());
-//        JButton button = new JButton();
-//        button.setText("Click me");
-//        button.addActionListener(new ActionListener() {
-//            @Override
-//            public void actionPerformed(ActionEvent e) {
-//                frame.getContentPane().setBackground(Color.RED);
-//            }
-//        });
-//        frame.add(button);
+        //  Вопрос: как всегда держать в фокусе панель?
+        //  Либо существует иной способ создать глобальный слушатель?
+        jPanel.setFocusable(true);
 
+        frame.setContentPane(jPanel);
         frame.setTitle("GUI Basics");
         frame.setSize(800, 600);
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setVisible(true);
+    }
+
+    public static void main(String[] args) {
+        Form form = new Form();
+        renderJFrame(form.getRootPanel());
+
+        //  Вопрос: как слушатель привязать ко всему фрейму для переключения форм через клавиши?
+        //  setFocusable костыль!
     }
 }
 

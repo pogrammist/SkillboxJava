@@ -1,2 +1,2 @@
-public class AddContact {
+public class ContactAdd {
 }

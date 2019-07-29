@@ -2,19 +2,19 @@ import javax.swing.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
-public class Auth {
+public class AuthNumber {
 
     private JPanel rootPanel;
     private JPanel headerPanel;
     private JButton exitButton;
     private JButton lowButton;
     private JPanel bodyPanel;
+    private JButton button1;
+    private JPanel logoPanel;
     private JTextPane helpPane;
     private JFormattedTextField formatNamberTextField;
-    private JPanel logoPanel;
-    private JButton button1;
 
-    public Auth() {
+    public AuthNumber() {
 
         bodyPanel.setLayout(new BoxLayout(bodyPanel, BoxLayout.Y_AXIS));
 
@@ -23,7 +23,7 @@ public class Auth {
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
                 AuthCode authCode = new AuthCode();
-                Javagram.frame.
+                Javagram.renderJFrame(authCode.getRootPanel());
             }
         });
 

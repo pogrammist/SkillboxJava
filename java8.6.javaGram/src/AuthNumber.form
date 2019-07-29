@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Auth">
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AuthNumber">
   <grid id="27dc6" binding="rootPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
     <constraints>
       <xy x="20" y="20" width="630" height="400"/>
@@ -38,12 +38,12 @@
           </component>
         </children>
       </grid>
-      <grid id="4301e" binding="bodyPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+      <grid id="1eda4" binding="bodyPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
         <constraints border-constraint="Center"/>
         <properties/>
         <border type="none"/>
         <children>
-          <grid id="ecd71" binding="logoPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+          <grid id="2a487" binding="logoPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
             <constraints/>
             <properties>
               <maximumSize width="100" height="100"/>
@@ -53,24 +53,26 @@
             <border type="line"/>
             <children/>
           </grid>
-          <component id="7937b" class="javax.swing.JTextPane" binding="helpPane">
+          <component id="5c137" class="javax.swing.JTextPane" binding="helpPane">
             <constraints/>
             <properties>
               <editable value="false"/>
               <maximumSize width="100" height="100"/>
               <minimumSize width="100" height="100"/>
               <preferredSize width="100" height="100"/>
+              <text value="input number"/>
             </properties>
           </component>
-          <component id="9c30f" class="javax.swing.JFormattedTextField" binding="formatNamberTextField">
+          <component id="ba08b" class="javax.swing.JFormattedTextField" binding="formatNamberTextField">
             <constraints/>
             <properties>
               <maximumSize width="100" height="30"/>
               <minimumSize width="100" height="30"/>
               <preferredSize width="100" height="30"/>
+              <text value="input number"/>
             </properties>
           </component>
-          <component id="99c2a" class="javax.swing.JButton" binding="button1" default-binding="true">
+          <component id="d26eb" class="javax.swing.JButton" binding="button1" default-binding="true">
             <constraints/>
             <properties>
               <alignmentX value="0.0"/>

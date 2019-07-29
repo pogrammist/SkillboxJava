@@ -1,2 +1,2 @@
-public class EditContact {
+public class ContactEdit {
 }
