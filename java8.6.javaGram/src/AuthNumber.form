@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Auth">
+  <grid id="27dc6" binding="rootPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="630" height="400"/>
+    </constraints>
+    <properties>
+      <maximumSize width="630" height="150"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="d455c" binding="headerPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="2">
+        <constraints border-constraint="North"/>
+        <properties>
+          <maximumSize width="2147483647" height="40"/>
+          <minimumSize width="0" height="40"/>
+          <preferredSize width="0" height="40"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a26d4" class="javax.swing.JButton" binding="lowButton">
+            <constraints/>
+            <properties>
+              <maximumSize width="30" height="30"/>
+              <minimumSize width="30" height="30"/>
+              <preferredSize width="30" height="30"/>
+              <text value="_"/>
+            </properties>
+          </component>
+          <component id="3e189" class="javax.swing.JButton" binding="exitButton">
+            <constraints/>
+            <properties>
+              <maximumSize width="30" height="30"/>
+              <minimumSize width="30" height="30"/>
+              <preferredSize width="30" height="30"/>
+              <text value="X"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="4301e" binding="bodyPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="ecd71" binding="logoPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints/>
+            <properties>
+              <maximumSize width="100" height="100"/>
+              <minimumSize width="100" height="100"/>
+              <preferredSize width="100" height="100"/>
+            </properties>
+            <border type="line"/>
+            <children/>
+          </grid>
+          <component id="7937b" class="javax.swing.JTextPane" binding="helpPane">
+            <constraints/>
+            <properties>
+              <editable value="false"/>
+              <maximumSize width="100" height="100"/>
+              <minimumSize width="100" height="100"/>
+              <preferredSize width="100" height="100"/>
+            </properties>
+          </component>
+          <component id="9c30f" class="javax.swing.JFormattedTextField" binding="formatNamberTextField">
+            <constraints/>
+            <properties>
+              <maximumSize width="100" height="30"/>
+              <minimumSize width="100" height="30"/>
+              <preferredSize width="100" height="30"/>
+            </properties>
+          </component>
+          <component id="99c2a" class="javax.swing.JButton" binding="button1" default-binding="true">
+            <constraints/>
+            <properties>
+              <alignmentX value="0.0"/>
+              <maximumSize width="100" height="30"/>
+              <minimumSize width="100" height="30"/>
+              <preferredSize width="100" height="30"/>
+              <text value="Connect"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
