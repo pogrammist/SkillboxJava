@@ -2,36 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8e8ba86-6da6-4d9e-a2c9-7cb9cf6fb969" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../java8.1.GuiBasics/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java8.1.GuiBasics/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java8.1.GuiBasics/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java8.1.GuiBasics/java8.1.gui_basics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java8.1.GuiBasics/src/Form.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java8.1.GuiBasics/src/Form.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java8.1.GuiBasics/src/Loader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java8.2.Developments.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form2.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Loader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java8.2.DialogForms/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java8.2.DialogForms/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java8.2.DialogForms/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java8.2.DialogForms/java8.2.Developments.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java8.2.DialogForms/src/Form.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java8.2.DialogForms/src/Form.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java8.2.DialogForms/src/Form2.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java8.2.DialogForms/src/Form2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java8.2.DialogForms/src/Loader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java8.2.TestGUI/java8.2.TestGUI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java8.2.TestGUI/src/Form.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java8.2.TestGUI/src/Form.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java8.2.TestGUI/src/Loader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java6.5.Furniture/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java6.5.Furniture/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java7.4.TextAnalyzer/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java7.4.TextAnalyzer/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java7.4.TextAnalyzer/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java7.4.TextAnalyzer/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java7.4.TextAnalyzer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java7.4.TextAnalyzer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java7.4.TextAnalyzer/out/production/TextAnalyzer/TextAnalyzer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java7.4.TextAnalyzer/out/production/TextAnalyzer/TextAnalyzer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java7.4.TextAnalyzer/out/production/TextAnalyzer/TextAnalyzer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java7.4.TextAnalyzer/out/production/TextAnalyzer/TextAnalyzer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java7.4.TextAnalyzer/out/production/TextAnalyzer/TextAnalyzerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java7.4.TextAnalyzer/out/production/TextAnalyzer/TextAnalyzerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java7.4.TextAnalyzer/src/TextAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java7.4.TextAnalyzer/src/TextAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java7.4.TextAnalyzer/src/TextAnalyzerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java7.4.TextAnalyzer/src/TextAnalyzerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java8.1.GuiBasics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java8.1.GuiBasics/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java8.2.Developments/Form.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java8.2.Developments/Form.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java8.2.Developments/Loader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loader.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Loader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+            <state relative-caret-position="495">
+              <caret line="33" column="77" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -57,10 +40,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Form.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+            <state relative-caret-position="-376">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1852#2126#0" expanded="true" />
+                <element signature="e#2125#2126#0" expanded="true" />
                 <element signature="e#2465#2466#0" expanded="true" />
                 <element signature="e#2497#2498#0" expanded="true" />
                 <element signature="e#2552#2553#0" expanded="true" />
@@ -82,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Form2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="330">
               <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -117,8 +102,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/Form.form" />
         <option value="$PROJECT_DIR$/src/Form2.form" />
-        <option value="$PROJECT_DIR$/src/Form.java" />
         <option value="$PROJECT_DIR$/src/Form2.java" />
+        <option value="$PROJECT_DIR$/src/Form.java" />
         <option value="$PROJECT_DIR$/src/Loader.java" />
       </list>
     </option>
@@ -168,6 +153,12 @@
               <item name="java8.2.Developments" type="b2602c69:ProjectViewProjectNode" />
               <item name="java8.2.Developments" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java8.2.Developments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java8.2.Developments" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Form" type="e9f4de52:FormNode" />
             </path>
           </expand>
           <select />
@@ -227,7 +218,7 @@
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2167382" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22246066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -244,7 +235,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32991204" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32991204" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32991204" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -299,37 +290,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Frame.java" />
-    <entry file="file://$PROJECT_DIR$/src/Loader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2465#2466#0" expanded="true" />
-            <element signature="e#2497#2498#0" expanded="true" />
-            <element signature="e#2552#2553#0" expanded="true" />
-            <element signature="e#2606#2607#0" expanded="true" />
-            <element signature="e#2655#2656#0" expanded="true" />
-            <element signature="e#2703#2704#0" expanded="true" />
-            <element signature="e#2764#2765#0" expanded="true" />
-            <element signature="e#2824#2825#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Form2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="330">
           <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -343,6 +306,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Form2.form">
       <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-376">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1852#2126#0" expanded="true" />
+            <element signature="e#2125#2126#0" expanded="true" />
+            <element signature="e#2465#2466#0" expanded="true" />
+            <element signature="e#2497#2498#0" expanded="true" />
+            <element signature="e#2552#2553#0" expanded="true" />
+            <element signature="e#2606#2607#0" expanded="true" />
+            <element signature="e#2655#2656#0" expanded="true" />
+            <element signature="e#2703#2704#0" expanded="true" />
+            <element signature="e#2764#2765#0" expanded="true" />
+            <element signature="e#2824#2825#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="77" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

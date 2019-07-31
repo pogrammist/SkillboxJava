@@ -19,11 +19,21 @@ public class Loader {
     }
 
     public static void main(String[] args) {
-        Form form = new Form();
-        renderJFrame(form.getRootPanel());
+
+        SwingUtilities.invokeLater(new Runnable(){
+            @Override
+            public void run(){
+                // код инициализации
+                Form form = new Form();
+                renderJFrame(form.getRootPanel());
+            }
+        });
 
         //  Вопрос: как слушатель привязать ко всему фрейму для переключения форм через клавиши?
         //  setFocusable костыль!
+        //  Речь о переключении через Ctrl + Enter на вторую форму и обратно, фокус слетает с фрейма и нажатие клавиж не срабатывает
+
+        //  После добавления предложенной вами обертки переключение через клавиши с первой формы перестало работать
     }
 }
 

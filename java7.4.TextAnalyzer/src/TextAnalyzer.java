@@ -30,6 +30,8 @@ public class TextAnalyzer {
             Integer count = wordCounts.get(word);
             wordCounts.put(word, count == null ? 1 : count + 1);
         }
+
+        //Тяжело читается этот фрагмент
         Collections.sort(words, new Comparator<String>() {
             @Override
             public int compare(String o1, String o2) {
