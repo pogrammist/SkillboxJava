@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="341183e2-fff8-4242-b704-ec5b76684dcb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TextAnalyzer/Loader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java2.3.Booleans/src/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java2.3.Booleans/src/Loader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TextAnalyzer/TextAnalyzer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TextAnalyzer/TextAnalyzer$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TextAnalyzer/TextAnalyzer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TextAnalyzer/TextAnalyzer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TextAnalyzer/TextAnalyzerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TextAnalyzer/TextAnalyzerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TextAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextAnalyzer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TextAnalyzerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextAnalyzerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java8.1.GuiBasics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java8.1.GuiBasics/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java8.2.Developments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java8.2.Developments/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java8.2.Developments/out/production/java8.2.Developments/Form.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java8.2.Developments/out/production/java8.2.Developments/Form.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java8.2.Developments/out/production/java8.2.Developments/Loader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java8.2.Developments/src/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java8.2.Developments/src/Loader.java" afterDir="false" />
     </list>
     <ignored path="TextAnalyzer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,14 +30,14 @@
     <favorites_list name="TextAnalyzer" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4037589">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Loader.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="3" column="19" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="19" />
+                <state relative-caret-position="165">
+                  <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -54,20 +45,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/TextAnalyzer.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/res/text_01.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+                <state relative-caret-position="50">
+                  <caret line="5" column="23" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -75,33 +57,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/TextAnalyzer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-                </state>
-              </provider>
-            </entry>
-          </file>
+        <leaf>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/TextAnalyzerTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="90" selection-start-line="15" selection-start-column="90" selection-end-line="15" selection-end-column="90" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Loader.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" selection-start-line="11" selection-end-line="11" />
+                <state relative-caret-position="395">
+                  <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -134,8 +95,8 @@
         <option value="$PROJECT_DIR$/res/text_02.txt" />
         <option value="$PROJECT_DIR$/src/Loader.java" />
         <option value="$PROJECT_DIR$/res/text_01.txt" />
-        <option value="$PROJECT_DIR$/src/TextAnalyzerTest.java" />
         <option value="$PROJECT_DIR$/src/TextAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/TextAnalyzerTest.java" />
       </list>
     </option>
   </component>
@@ -344,34 +305,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TextAnalyzerTest - 2019.08.01 at 01h 56m 27s.xml">
+    <history-entry file="TextAnalyzerTest - 2019.08.02 at 17h 05m 51s.xml">
       <configuration name="TextAnalyzerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TextAnalyzerTest - 2019.08.01 at 01h 56m 33s.xml">
+    <history-entry file="TextAnalyzerTest - 2019.08.02 at 17h 17m 16s.xml">
       <configuration name="TextAnalyzerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TextAnalyzerTest - 2019.08.01 at 02h 07m 39s.xml">
+    <history-entry file="TextAnalyzerTest - 2019.08.02 at 17h 19m 53s.xml">
       <configuration name="TextAnalyzerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TextAnalyzerTest - 2019.08.01 at 02h 08m 23s.xml">
+    <history-entry file="TextAnalyzerTest - 2019.08.02 at 17h 20m 15s.xml">
       <configuration name="TextAnalyzerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TextAnalyzerTest - 2019.08.01 at 02h 08m 37s.xml">
+    <history-entry file="TextAnalyzerTest - 2019.08.02 at 17h 21m 24s.xml">
       <configuration name="TextAnalyzerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TextAnalyzerTest - 2019.08.01 at 02h 37m 53s.xml">
+    <history-entry file="TextAnalyzerTest - 2019.08.02 at 17h 21m 40s.xml">
       <configuration name="TextAnalyzerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TextAnalyzerTest - 2019.08.01 at 02h 42m 10s.xml">
+    <history-entry file="TextAnalyzerTest - 2019.08.02 at 17h 21m 55s.xml">
       <configuration name="TextAnalyzerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TextAnalyzerTest - 2019.08.01 at 02h 42m 36s.xml">
+    <history-entry file="TextAnalyzerTest - 2019.08.02 at 17h 22m 04s.xml">
       <configuration name="TextAnalyzerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TextAnalyzerTest - 2019.08.01 at 02h 43m 51s.xml">
+    <history-entry file="TextAnalyzerTest - 2019.08.02 at 17h 22m 14s.xml">
       <configuration name="TextAnalyzerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TextAnalyzerTest - 2019.08.01 at 02h 44m 33s.xml">
+    <history-entry file="TextAnalyzerTest - 2019.08.02 at 17h 22m 23s.xml">
       <configuration name="TextAnalyzerTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -379,7 +340,7 @@
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14592275" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.105150215" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Palette&#9;" order="3" />
@@ -388,7 +349,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49707174" weight="0.29577464" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49707174" weight="0.29325512" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30985916" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -437,27 +398,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TextAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Loader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/TextAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TextAnalyzerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="90" selection-start-line="15" selection-start-column="90" selection-end-line="15" selection-end-column="90" />
+        <state relative-caret-position="395">
+          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

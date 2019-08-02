@@ -3,6 +3,7 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class TextAnalyzerTest {
 
@@ -19,7 +20,7 @@ public class TextAnalyzerTest {
     @Test
     public void analyzer_will_return_compare_two_array_words() {
         ArrayList<String> actualList = textAnalyzer.getWords();
-        ArrayList<String> expectedList = new ArrayList<String>(Arrays.asList("are", "are", "are", "the", "the", "the", "is", "is", "is"));
+        List<String> expectedList = Arrays.asList("are", "are", "are", "the", "the", "the", "is", "is", "is");
         Assert.assertEquals(expectedList, actualList);
     }
 
@@ -30,23 +31,20 @@ public class TextAnalyzerTest {
         Assert.assertEquals(actualString, expectString);
     }
 
-    //  В задании просили тестить только методы класса TextAnalyzer а не Loader)
     @Test
-    public void analyzer_will_return_not_null_text_buffer() {
-        boolean trueString;
-        if (text.equals(null)) trueString = true;
-        else trueString = false;
-        boolean expectString = false;
-        Assert.assertEquals(trueString, expectString);
-    }
-
-    @Test
-    public void analyzer_will_return_not_empty_text_buffer() {
-        boolean trueString;
-        if (text.equals("")) trueString = true;
-        else trueString = false;
-        boolean expectString = false;
-        Assert.assertEquals(trueString, expectString);
+    public void analyzer_will_return_fail() {
+        try {
+            TextAnalyzer nullTextAnalyzer = new TextAnalyzer(null);
+            nullTextAnalyzer.getMostFrequentWord();
+            Assert.fail("Exception was expected for null input");
+        } catch (NullPointerException e) {
+        }
+        try {
+            TextAnalyzer nullTextAnalyzer = new TextAnalyzer("");
+            nullTextAnalyzer.getMostFrequentWord();
+            Assert.fail("Exception was expected for null input");
+        } catch (IndexOutOfBoundsException e) {
+        }
     }
 
     @Test
