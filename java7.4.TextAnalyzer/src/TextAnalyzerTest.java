@@ -57,11 +57,4 @@ public class TextAnalyzerTest {
         String expectString = "are";
         Assert.assertEquals(actualString, expectString);
     }
-
-    @Test
-    public void splitTextIntoFragmentsTest() {
-//        String[] actualArrayString = textAnalyzer.O_o
-//        Google говорит не проверять приватный метод!)
-//        А что делать если очень хочется?
-    }
 }
