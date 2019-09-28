@@ -44,7 +44,3 @@ public class Falcon9 {
         System.out.println();
     }
 }
-
-
-//P.S All methods is static
-//P.P.S. Fucking Elon Mask
